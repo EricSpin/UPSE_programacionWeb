@@ -31,7 +31,8 @@ img{ max-width:100%;} /*recorset de imagenes */
 /*ANCOR*/
 a{
 	text-decoration: none;
-	color: #6ab47b;
+	color: #000000;
+
 }
 
 #wrapper {
@@ -98,9 +99,27 @@ footer{
 }
 /*SECTION ABOUT*/
 .profile-photo{ display:block;
-				max-width: 300px;
+				max-width: 150px;
 				margin: 0 auto 30px;
 				border-radius: 100%;
-				
-
+}
+/*CONTACTOS*/
+.contact-info a { display: block;
+				min-height:20px;
+				background-repeat:no-repeat;
+				background-size:20px 20px;
+				padding:0 0 0 30px;
+				margin:0 0 10px;
+}
+.contact-info {
+				list-style: none;
+				padding: 0;
+				margin: 0;
+				font-size: 0.9em;
+}
+.contact-info li.phone a{ background-image: url('../img/phone.png');
+}
+.contact-info li.mail a{ background-image: url('../img/mail.png');
+}
+.contact-info li.twitter a{ background-image: url('../img/twitter.png');
 }
