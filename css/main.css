@@ -6,7 +6,7 @@ h1{
 	font-weight: normal;
 	line-height: 1em;
 }
-img{ max-width:100%;}
+img{ max-width:100%;} /*recorset de imagenes */
 
 /*INDEX*/
 #galeria{margin:0;
@@ -23,6 +23,7 @@ img{ max-width:100%;}
 #galeria li p {
 			margin:0;
 			padding:2%;
+			background:#bab8b8;
 			font-size:1em;
 			color:#0123c7;
 }
@@ -66,3 +67,10 @@ nav a.selected {
 }
 nav a:hover{color: #32673f;} /*cambia de color al pasar el mouse*/
 /*FOOTER*/
+footer{
+	font-size: 1em;
+	text-align: center;
+	clear:both;
+	padding-top: 50px;
+	color:#ccc;
+}
