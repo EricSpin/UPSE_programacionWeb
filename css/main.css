@@ -6,8 +6,26 @@ h1{
 	font-weight: normal;
 	line-height: 1em;
 }
+img{ max-width:100%;}
 
-
+/*INDEX*/
+#galeria{margin:0;
+		padding:0;
+		list-style:none
+		;
+}
+#galeria li{float:left;
+			width:45%;
+			margin: 2.5%;
+			background-color:#f5f5f5;
+			color:#bdc3c7;
+}
+#galeria li p {
+			margin:0;
+			padding:2%;
+			font-size:1em;
+			color:#0123c7;
+}
 
 /*ANCOR*/
 a{
