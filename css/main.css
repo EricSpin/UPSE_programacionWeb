@@ -1,7 +1,18 @@
+/*GENERAL*/
+h1{
+	font-family: 'Varela Round', sans-serif;
+	margin: 20px 0;
+	font-size: 2em;
+	font-weight: normal;
+	line-height: 1em;
+}
+
+
+
+/*ANCOR*/
 a{
 	text-decoration: none;
 	color: #6ab47b;
-
 }
 
 #wrapper {
@@ -16,6 +27,7 @@ a{
 	text-align: center;
 	margin: 0;
 }
+/*HEADING*/
 header {
 	background: #6ab47b;
 	border-color: #599a68;
@@ -23,9 +35,16 @@ header {
 h1, h2 {
 	color: #fff;
 }
+/*NAVIGATION*/
 nav {
 	background: #6db69c;
 }
 nav a, nav a:visited{
 color: #fff;
 }
+/*color a la galeria*/
+nav a.selected {
+	color: #ffffff;
+}
+nav a:hover{color: #32673f;} /*cambia de color al pasar el mouse*/
+/*FOOTER*/
