@@ -31,7 +31,7 @@ img{ max-width:100%;} /*recorset de imagenes */
 /*ANCOR*/
 a{
 	text-decoration: none;
-	color: #6ab47b;
+	color: #000000;
 }
 
 #wrapper {
@@ -98,7 +98,7 @@ footer{
 }
 /*SECTION ABOUT*/
 .profile-photo{ display:block;
-				max-width: 300px;
+				max-width: 500px;
 				margin: 0 auto 30px;
 				border-radius: 100%;
 				
