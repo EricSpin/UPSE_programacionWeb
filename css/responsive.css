@@ -1,13 +1,32 @@
-@media screen and (min-width: 480px)
-{
-	body{
-		background: navy;
+
+@media screen and (min-width: 480px){
+
+	#primary {		width: 50%;
+		float: left;
+	}
+
+
+	#secondary {	width: 40%;
+		float: right;
 	}
 }
 
-@media screen and (min-width: 660px)
-{
-	body {
-		background: darkgreen;
-	}
+#galeria li{ 	width: 28.3333%;	}/*tres columnas*/
+#galeria li:nth-child(3n+1){
+	clear: left;
+};
+/*Estilos para la pagina About*/
+
+.profile-photo{
+	float: left;
+	margin: 0 5% 120px 0;
+}
+@media screen and (min-width: 660px){
+nav{	background: none;
+		float: right;
+		font-size: 1.125em;
+		margin-right: 5%;
+		text-align: right;
+		width: 45;
+
 }
