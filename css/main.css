@@ -32,7 +32,10 @@ img{ max-width:100%;} /*recorset de imagenes */
 a{
 	text-decoration: none;
 	color: #000000;
+<<<<<<< HEAD
 
+=======
+>>>>>>> c4dd9e907386c24ac08f77ab35ad592e3d6efda0
 }
 
 #wrapper {
@@ -99,7 +102,11 @@ footer{
 }
 /*SECTION ABOUT*/
 .profile-photo{ display:block;
+<<<<<<< HEAD
 				max-width: 150px;
+=======
+				max-width: 500px;
+>>>>>>> c4dd9e907386c24ac08f77ab35ad592e3d6efda0
 				margin: 0 auto 30px;
 				border-radius: 100%;
 }
