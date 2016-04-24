@@ -86,3 +86,36 @@ $select.change(function(){
 	//Toma el valor de la opcion seleccionada
 	window.location = $select.val();
 });
+
+
+//Esconder ayudas
+var $password = $("#password");
+var $confirmPassword = $("#confirm_Password");
+
+$("form span").hide();
+
+function eventoPassword(){
+//Validar si la clave es valida
+if("$password.val().length > 8"){
+
+	//Esconder ayuda si clave es valida
+	$password.next().hide();
+
+	}else{
+	//caso contrario mostrar ayuda
+	$password.next().show();
+	}
+}
+
+function confirmarPassword(){
+	if($password.val() === $confirmarPassword.val()){
+		$confirmarPassword.next().hide();
+	}else{
+		$confirmarPassword.next().show();	
+	}
+}
+
+//cuando usuario ingresa clave
+$password.focus(eventoPassword).keyup(eventoPassword);
+
+$confirmarPassword.focus(confirmarPassword).keyup(confirmarPassword);
