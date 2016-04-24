@@ -67,17 +67,22 @@ $("#menu a").each(function(){
 
 	//Obtener si el link es la pagina actual
 
-	if($(this).parent().hasClass("selected"))
+	if($(this).hasClass("selected"))
 	{
 		$option.prop("selected", true);
 	}
 });
 
 //boton de seleccion
-var $button = $("<button>Go</button>");
-$("#menu").append($button);
+/*var $button = $("<button>Go</button>");
+$("#menu").append($button);*/
 
-$button.click(function(){
+/*$button.click(function(){
+	//Toma el valor de la opcion seleccionada
+	window.location = $select.val();
+});*/
+
+$select.change(function(){
 	//Toma el valor de la opcion seleccionada
 	window.location = $select.val();
 });
